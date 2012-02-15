@@ -20,25 +20,33 @@ class News extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();
-		$this->activo = "index";
-		$this->load->library('relative_time');
-		$this->url = $this->config->item('base_url');
-		$this->load->model('islideshow_model');
-		$this->load->model('news_model');
-		$this->load->model('announces_model');
 	}
 
 	public function index()
 	{
 		$this->load->helper('date');
-		$this->load->helper("text"); 
+		$this->load->helper("text");
+		$this->load->library('relative_time');
+		$this->url = $this->config->item('base_url');
 		$data['path'] = $this->url;
-		$data['title'] = $this->config->item('site_title');
-		$this->template->title($data['title'], 'Inicio');
 		$data['server_name'] = $this->config->item('server_name');
 		$data['theme'] = $this->config->item('theme');
+		$data['title'] = $this->config->item('site_title');
+		$this->template->title($data['title'], 'Inicio');
 		$data['activo'] = 'index';
 		$data['pagina'] = 'homepage';
+		$this->load->model('islideshow_model');
+		$data['islider'] = $this->islideshow_model->get_slides();
+		$data['limit'] = $this->islideshow_model->get_num_slides();
+		$data['leader_islider'] = $this->islideshow_model->get_leader_slide();
+		$this->load->model('news_model');
+		$data['news_top'] = $this->news_model->get_top_min_news();
+		$data['news'] = $this->news_model->get_news();
+		$this->load->model('announces_model');
+		$data['announce'] = $this->announces_model->announce();
+		$data['logged_id'] = $this->session->userdata('id');
+		$data['logged_in'] = $this->session->userdata('logged_in');
+		$data['username'] = $this->session->userdata('username'); 
 		$loader = array(
 		0 => 'Los m&oacute;dulos de la barra lateral est&aacute;n cargando&hellip;',
 		1 => 'Cargando contenido&hellip;'
@@ -111,15 +119,6 @@ _gaq.push([\'_trackPageLoadTime\']);
 	<meta name="title" content="World of Warcraft" />
 	<link rel="image_src" href="'.$data['path'].'/'.APPPATH.'themes/'.$data['theme'].'/static/images/icons/facebook/game.html" />
 	');
-		$data['islider'] = $this->islideshow_model->get_slides();
-		$data['logged_id'] = $this->session->userdata('id');
-		$data['logged_in'] = $this->session->userdata('logged_in');
-		$data['username'] = $this->session->userdata('username');
-		$data['limit'] = $this->islideshow_model->get_num_slides();
-		$data['leader_islider'] = $this->islideshow_model->get_leader_slide();
-		$data['news_top'] = $this->news_model->get_top_min_news();
-		$data['news'] = $this->news_model->get_news();
-		$data['announce'] = $this->announces_model->announce();
 		$this->template->build('index', $data);
 	}
 

@@ -12,6 +12,7 @@ if(!defined('BASEPATH')) exit('No se permite el acceso directo a este script.');
 *
 **********************************************************************************/
 $route['sidebar'] = 'sidebar';
+$route['sidebar/sotd'] = 'sidebar/sotd';
 $route['sidebar/related_articles'] = 'sidebar/related_articles';
 $route['sidebar/recent_articles'] = 'sidebar/recent_articles';
 $route['sidebar/forums'] = 'sidebar/forums';
@@ -21,6 +22,7 @@ $route['news'] = 'news';
 $route['account'] = 'account';
 $route['server'] = 'server';
 $route['server/realm-status'] = 'server/realm-satus';
+$route['community'] = 'community';
 $route['account/register'] = 'account/register';
 $route['account/login'] = 'account/login';
 $route['account/logout'] = 'account/logout';

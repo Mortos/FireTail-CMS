@@ -64,18 +64,15 @@ CREATE TABLE `drak_users` (
   KEY `idx_gmlevel` (`level`)
 ) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='Account System';
 
-DROP TABLE IF EXISTS `drak_realms`;
+DROP TABLE IF EXISTS `drak_community_slider`;
 
-CREATE TABLE `drak_reinos` (
-  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `nombre` varchar(32) NOT NULL,
-  `host` varchar(32) NOT NULL DEFAULT '127.0.0.1',
-  `puerto` int(11) NOT NULL DEFAULT '8085',
-  `char_db` varchar(32) NOT NULL,
-  `world_db` varchar(32) NOT NULL,
-  `ra_user` varchar(128) NOT NULL,
-  `ra_pass` varchar(128) NOT NULL,
-  `version` varchar(64) NOT NULL,
-  PRIMARY KEY (`id`,`ra_user`,`ra_pass`,`char_db`,`world_db`),
-  UNIQUE KEY `idx_name` (`nombre`)
-) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='Firetail Realm System';
+CREATE TABLE `drak_community_slider` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(30) CHARACTER SET utf8 NOT NULL,
+  `desc` tinytext CHARACTER SET utf8,
+  `banner` varchar(128) CHARACTER SET utf8 NOT NULL,
+  `link` varchar(128) CHARACTER SET utf8 NOT NULL,
+  `date` varchar(128) NOT NULL,
+  PRIMARY KEY (`id`,`title`,`banner`,`link`,`date`),
+  UNIQUE KEY `id` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
