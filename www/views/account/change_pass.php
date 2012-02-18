@@ -80,14 +80,6 @@ _gaq.push(['_trackPageLoadTime']);
 <div id="layout-top">
 <div class="wrapper">
 <div id="header">
-<div id="search-bar">
-<form action="https://us.battle.net/search" method="get" id="search-form">
-<div>
-<input type="text" name="q" id="search-field" value="Buscar en Battle.net" maxlength="35" alt="Buscar en Battle.net" tabindex="50" accesskey="q" />
-<input type="submit" id="search-button" value="" title="Buscar en Battle.net" tabindex="50" />
-</div>
-</form>
-</div>
 <h1 id="logo"><a href="http://us.battle.net/" tabindex="50" accesskey="h">Battle.net</a></h1>
 <div id="navigation">
 <div id="page-menu" class="large">
