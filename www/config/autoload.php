@@ -52,7 +52,7 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array('session', 'template', 'database', 'form_validation');
+$autoload['libraries'] = array('session', 'realms_lib', 'template', 'database', 'form_validation');
 
 
 /*

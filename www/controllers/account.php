@@ -19,28 +19,83 @@ class Account extends CI_Controller {
 		parent::__construct();
 		$this->load->model('account_model');
 		$this->load->library('SHA_Hash');
-		$title = $this->config->item('site_title');
 		$website_path = $this->config->item('base_url');
-		$this->template->title($title);
 	}
 	public function index()
 	{
-	$username = $this->session->userdata('username');
+	}
+	public function management()
+	{
+	$this->url = $this->config->item('base_url');
 	$info = array(
-	'username' => $this->account_model->get_info('username', $username),
-	'email' => $this->account_model->get_info('email', $username),
-	'joindate' => $this->account_model->get_info('joindate', $username),
-	'expansion' => $this->account_model->get_info('expansion', $username),
-	'banned' => $this->account_model->get_info('locked', $username),
-	'coins' => $this->account_model->get_drakinfo('coins', $username),
-	'points' => $this->account_model->get_drakinfo('points', $username),
+	'path' => $this->url,
+	'title' => $this->config->item('site_title'),
+	'server_name' => $this->config->item('server_name'),
+	'theme' => $this->config->item('theme'),
+	'logged_in' => $this->session->userdata('logged_in'),
+	'logged_id' => $this->session->userdata('id'),
+	'id' => $this->account_model->get_info('id', $this->session->userdata('username')),
+	'username' => $this->account_model->get_info('username', $this->session->userdata('username')),
+	'email' => $this->account_model->get_info('email', $this->session->userdata('username')),
+	'joindate' => $this->account_model->get_info('joindate', $this->session->userdata('username')),
+	'expansion' => $this->account_model->get_info('expansion', $this->session->userdata('username')),
+	'banned' => $this->account_model->get_info('locked', $this->session->userdata('username')),
+	'coins' => $this->account_model->get_drakinfo('coins', $this->session->userdata('username')),
+	'points' => $this->account_model->get_drakinfo('points', $this->session->userdata('username'))
 	);
 	if($this->session->userdata('logged_in') == TRUE)
-	{
-	$this->template->build('account', $info);
+	{ 
+	$this->load->view('account', $info);
+	$this->load->view('account/footer', $info);
 	}
 	else {
 	redirect('account/login', 'refresh');
+	}
+	}
+	public function change_password()
+	{
+	$this->url = $this->config->item('base_url');
+	$info = array(
+	'path' => $this->url,
+	'title' => $this->config->item('site_title'),
+	'server_name' => $this->config->item('server_name'),
+	'theme' => $this->config->item('theme'),
+	'logged_in' => $this->session->userdata('logged_in'),
+	'logged_id' => $this->session->userdata('id'),
+	'id' => $this->account_model->get_info('id', $this->session->userdata('username')),
+	'username' => $this->account_model->get_info('username', $this->session->userdata('username')),
+	'email' => $this->account_model->get_info('email', $this->session->userdata('username')),
+	'coins' => $this->account_model->get_drakinfo('coins', $this->session->userdata('username'))
+	);
+	$this->form_validation->set_rules('oldPassword', 'Username', 'required');
+	$this->form_validation->set_rules('newPassword', 'Password', 'required');
+	$this->form_validation->set_rules('newPasswordVerify', 'Password Confirmation', 'required');
+	$username = $this->account_model->get_info('username', $this->session->userdata('username'));
+	$password_hash_db = $this->account_model->get_info('sha_pass_hash', $username);
+	$old_hash = $this->sha_hash->sha_password($username, $this->input->post('oldPassword'));
+	$hash = $this->sha_hash->sha_password($username, $this->input->post('newPassword'));
+	if($this->form_validation->run() == FALSE)
+	{
+	$this->load->view('account/change_pass', $info);
+	$this->load->view('account/footer', $info);
+	}
+	elseif($password_hash_db != $old_hash)
+	{
+		$info['suceso'] = "La contrase&ntilde;a actual es incorrecta.";
+		$this->load->view('account/change_pass', $info);
+		$this->load->view('account/footer', $info);
+	}
+	elseif($this->input->post('newPassword') != $this->input->post('newPasswordVerify'))
+	{
+		$info['suceso'] = "La contrase&ntilde;a nueva debe coincidir con su confirmaci&oacute;n.";
+		$this->load->view('account/change_pass', $info);
+		$this->load->view('account/footer', $info);
+	}
+	else {
+	$info['suceso'] = "Se ha cambiado la Contrase&ntilde;a";
+	$this->account_model->change('sha_pass_hash', $hash, $username);
+	$this->load->view('account/change_pass', $info);
+	$this->load->view('account/footer', $info);
 	}
 	}
 	public function register()

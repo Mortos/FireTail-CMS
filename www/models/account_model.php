@@ -65,10 +65,17 @@ class Account_model extends CI_Model {
 	foreach ($query->result() as $row)
 	return $row->$id;
    }
-   public function login($username, $password){
+   public function login($username, $password)
+   {
       $query = $this->db->where('username', $username);
       $query = $this->db->where('sha_pass_hash', $password);
 	  $query = $this->db->get('account');
       return $query->row();
+   }
+   public function change($columna, $hash, $username)
+   {
+	   $query = $this->db->query("UPDATE `account` SET `$columna`='$hash'");
+	   $query = $this->db->where('username', $username);
+	   return $query;
    }
 }

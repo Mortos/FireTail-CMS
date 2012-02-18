@@ -657,6 +657,106 @@ Debes tener activado JavaScript para utilizar esta página.
 </div>
 </div>
 </div>
+<script type="text/javascript">
+//<![CDATA[
+var xsToken = 'e906d4b6-d92b-459e-9e82-5625903fe680';
+var supportToken = '';
+var Msg = {
+support: {
+ticketNew: 'Fue creado el Ticket {0}.',
+ticketStatus: 'El estado del Ticket {0} cambi&oacute; a {1}.',
+ticketOpen: 'Abierto',
+ticketAnswered: 'Respondido',
+ticketResolved: 'Resuelto',
+ticketCanceled: 'Cancelado',
+ticketArchived: 'Archivado',
+ticketInfo: 'M&aacute;s Info',
+ticketAll: 'Ver todos los Tickets'
+},
+cms: {
+requestError: 'No fue posible completar tu solicitud.',
+ignoreNot: 'No est&aacute;s ignorando a este usuario',
+ignoreAlready: 'Ya est&aacute;s ignorando a este usuario',
+stickyRequested: 'Solicitaste pegar el mensaje',
+stickyHasBeenRequested: 'Ya enviaste una solicitud de pegado para este hilo.',
+postAdded: 'Mensaje agregado al rastreador',
+postRemoved: 'Mensaje eliminado del rastreador',
+userAdded: 'Usuario agregado al rastreador',
+userRemoved: 'Usuario eliminado del rastreador',
+validationError: 'Un campo requerido se encuentra incompleto',
+characterExceed: 'El contenido del mensaje excede los XXXXXX caracteres.',
+searchFor: "Buscar",
+searchTags: "Art&iacute;culos marcados:",
+characterAjaxError: "Es posible que hayas sido desconectado. Por favor actualiza la p&aacute;gina e int&eacute;ntalo de nuevo.",
+ilvl: "Niv. de obj.",
+shortQuery: "Las solicitudes de b&uacute;squeda deber&aacute;n tener una extensi&oacute;n de, al menos, dos caracteres."
+},
+bml: {
+bold: 'Negritas',
+italics: 'Cursivas',
+underline: 'Subrayar',
+list: 'Lista sin ordenar',
+listItem: 'Listado',
+quote: 'Citar',
+quoteBy: 'Cita por {0}',
+unformat: 'Eliminar formato',
+cleanup: 'Corregir corte de l&iacute;neas',
+code: 'Bloques de c&oacute;digo',
+item: 'Objeto de WoW',
+itemPrompt: 'ID de objeto:',
+url: 'URL',
+urlPrompt: 'Direcci&oacute;n URL:'
+},
+ui: {
+submit: 'Enviar',
+cancel: 'Cancelar',
+reset: 'Reiniciar',
+viewInGallery: 'Ver en la galer&iacute;a',
+loading: 'Cargando%u2026',
+unexpectedError: 'Ha ocurrido un error',
+fansiteFind: 'Encuentra esto en:',
+fansiteFindType: '{0} en:',
+fansiteNone: 'No hay fansites disponibles.'
+},
+grammar: {
+colon: '{0}:',
+first: 'Primero',
+last: '&uacute;ltimo'
+},
+fansite: {
+achievement: 'Logro',
+character: 'Personaje',
+faction: 'Facci&oacute;n',
+'class': 'Clase',
+object: 'Objeto',
+talentcalc: 'Talentos',
+skill: 'Habilidad',
+quest: 'Misi&oacute;n',
+spell: 'Hechizo',
+event: 'Evento',
+title: 'T&iacute;tulo',
+arena: 'Arena',
+guild: 'Hermandad',
+zone: 'Zona',
+item: 'Objeto',
+race: 'Raza',
+npc: 'PNJ',
+pet: 'Mascota'
+},
+search: {
+kb: 'Soporte',
+post: 'Foros',
+article: 'Art&iacute;culos',
+static: 'Contenido general',
+wowcharacter: 'Personajes',
+wowitem: 'Objetos',
+wowguild: 'Hermandades',
+wowarenateam: 'Equipos de Arena',
+other: 'Otro'
+}
+};
+//]]>
+</script>
 <?php
 echo sprintf('<script type="text/javascript">
 //<![CDATA[

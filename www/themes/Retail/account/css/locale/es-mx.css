@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+#navigation #page-menu li { margin-right: 6px; }
+
+/* Mr. T signup form */
+.signUpForm .submit { font-size: 20px; letter-spacing: -1px }
+.rightColumn .signUpForm h1.formHeader { width: 294px; background: url("/account/images/lightweight-account-creation/es-mx/promo-free-starter/signup-msg-title.png") no-repeat 0 0; }
+.rightColumn .signUpForm td.leftCol { font-size: 11px; letter-spacing: -1px; }
+
+/* tv spot sign up promotion */
+.starter-edition .topLogin {margin-left:80px; }
+.starter-desc { width:580px }
+
+/* parental controls */
+.pc-menu-help-box { width: 340px; }
+
+ul.wow-services li.category { line-height: 19px; }
+
+/* payment */
+#payment-toggle .form-row label strong { letter-spacing: -1px; }

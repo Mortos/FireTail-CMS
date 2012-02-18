@@ -23,7 +23,7 @@ class Community extends CI_Controller {
 		$this->url = $this->config->item('base_url');
 		$data['path'] = $this->url;
 		$data['title'] = $this->config->item('site_title');
-		$this->template->title($data['title'], 'Inicio');
+		$this->template->title($data['title'], 'Comunidad');
 		$data['server_name'] = $this->config->item('server_name');
 		$data['theme'] = $this->config->item('theme');
 		$data['activo'] = 'community';

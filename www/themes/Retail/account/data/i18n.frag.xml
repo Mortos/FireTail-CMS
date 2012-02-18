@@ -1,0 +1,487 @@
+
+<div xmlns="http://www.w3.org/1999/xhtml" id="international">
+		<div class="column">
+			<h3>América</h3>
+
+			<ul>
+						<li>
+							<a href="http://us.battle.net/account/panel-o/sabeeee.html?locale=de-de"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to de-de'); return true;">
+							   Deutsch
+							</a>
+						</li>
+						<li>
+							<a href="http://us.battle.net/account/panel-o/sabeeee.html?locale=en-gb"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to en-gb'); return true;">
+							   English (EU)
+							</a>
+						</li>
+						<li>
+							<a href="http://us.battle.net/account/panel-o/sabeeee.html?locale=en-us"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to en-us'); return true;">
+							   English (US)
+							</a>
+						</li>
+						<li>
+							<a href="http://us.battle.net/account/panel-o/sabeeee.html?locale=es-mx"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to es-mx'); return true;">
+							   Español (AL)
+							</a>
+						</li>
+						<li>
+							<a href="http://us.battle.net/account/panel-o/sabeeee.html?locale=es-es"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to es-es'); return true;">
+							   Español (EU)
+							</a>
+						</li>
+						<li>
+							<a href="http://us.battle.net/account/panel-o/sabeeee.html?locale=fr-fr"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to fr-fr'); return true;">
+							   Français
+							</a>
+						</li>
+						<li>
+							<a href="http://us.battle.net/account/panel-o/sabeeee.html?locale=it-it"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to it-it'); return true;">
+							   Italiano
+							</a>
+						</li>
+						<li>
+							<a href="http://us.battle.net/account/panel-o/sabeeee.html?locale=pl-pl"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to pl-pl'); return true;">
+							   Polski
+							</a>
+						</li>
+						<li>
+							<a href="http://us.battle.net/account/panel-o/sabeeee.html?locale=pt-br"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to pt-br'); return true;">
+							   Português (AL)
+							</a>
+						</li>
+						<li>
+							<a href="http://us.battle.net/account/panel-o/sabeeee.html?locale=ru-ru"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to ru-ru'); return true;">
+							   ???????
+							</a>
+						</li>
+						<li>
+							<a href="http://us.battle.net/account/panel-o/sabeeee.html?locale=zh-tw"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to zh-tw'); return true;">
+							   ????
+							</a>
+						</li>
+						<li>
+							<a href="http://us.battle.net/account/panel-o/sabeeee.html?locale=ko-kr"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to ko-kr'); return true;">
+							   ???
+							</a>
+						</li>
+			</ul>
+		</div>
+		<div class="column">
+			<h3>Europa</h3>
+
+			<ul>
+						<li>
+							<a href="http://eu.battle.net/account/panel-o/sabeeee.html?locale=de-de"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to de-de'); return true;">
+							   Deutsch
+							</a>
+						</li>
+						<li>
+							<a href="http://eu.battle.net/account/panel-o/sabeeee.html?locale=en-gb"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to en-gb'); return true;">
+							   English (EU)
+							</a>
+						</li>
+						<li>
+							<a href="http://eu.battle.net/account/panel-o/sabeeee.html?locale=en-us"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to en-us'); return true;">
+							   English (US)
+							</a>
+						</li>
+						<li>
+							<a href="http://eu.battle.net/account/panel-o/sabeeee.html?locale=es-mx"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to es-mx'); return true;">
+							   Español (AL)
+							</a>
+						</li>
+						<li>
+							<a href="http://eu.battle.net/account/panel-o/sabeeee.html?locale=es-es" class="selected"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to es-es'); return true;">
+							   Español (EU)
+							</a>
+						</li>
+						<li>
+							<a href="http://eu.battle.net/account/panel-o/sabeeee.html?locale=fr-fr"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to fr-fr'); return true;">
+							   Français
+							</a>
+						</li>
+						<li>
+							<a href="http://eu.battle.net/account/panel-o/sabeeee.html?locale=it-it"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to it-it'); return true;">
+							   Italiano
+							</a>
+						</li>
+						<li>
+							<a href="http://eu.battle.net/account/panel-o/sabeeee.html?locale=pl-pl"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to pl-pl'); return true;">
+							   Polski
+							</a>
+						</li>
+						<li>
+							<a href="http://eu.battle.net/account/panel-o/sabeeee.html?locale=pt-br"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to pt-br'); return true;">
+							   Português (AL)
+							</a>
+						</li>
+						<li>
+							<a href="http://eu.battle.net/account/panel-o/sabeeee.html?locale=ru-ru"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to ru-ru'); return true;">
+							   ???????
+							</a>
+						</li>
+						<li>
+							<a href="http://eu.battle.net/account/panel-o/sabeeee.html?locale=zh-tw"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to zh-tw'); return true;">
+							   ????
+							</a>
+						</li>
+						<li>
+							<a href="http://eu.battle.net/account/panel-o/sabeeee.html?locale=ko-kr"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to ko-kr'); return true;">
+							   ???
+							</a>
+						</li>
+			</ul>
+		</div>
+		<div class="column">
+			<h3>Corea</h3>
+
+			<ul>
+						<li>
+							<a href="http://kr.battle.net/account/panel-o/sabeeee.html?locale=de-de"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to de-de'); return true;">
+							   Deutsch
+							</a>
+						</li>
+						<li>
+							<a href="http://kr.battle.net/account/panel-o/sabeeee.html?locale=en-gb"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to en-gb'); return true;">
+							   English (EU)
+							</a>
+						</li>
+						<li>
+							<a href="http://kr.battle.net/account/panel-o/sabeeee.html?locale=en-us"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to en-us'); return true;">
+							   English (US)
+							</a>
+						</li>
+						<li>
+							<a href="http://kr.battle.net/account/panel-o/sabeeee.html?locale=es-mx"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to es-mx'); return true;">
+							   Español (AL)
+							</a>
+						</li>
+						<li>
+							<a href="http://kr.battle.net/account/panel-o/sabeeee.html?locale=es-es"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to es-es'); return true;">
+							   Español (EU)
+							</a>
+						</li>
+						<li>
+							<a href="http://kr.battle.net/account/panel-o/sabeeee.html?locale=fr-fr"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to fr-fr'); return true;">
+							   Français
+							</a>
+						</li>
+						<li>
+							<a href="http://kr.battle.net/account/panel-o/sabeeee.html?locale=it-it"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to it-it'); return true;">
+							   Italiano
+							</a>
+						</li>
+						<li>
+							<a href="http://kr.battle.net/account/panel-o/sabeeee.html?locale=pl-pl"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to pl-pl'); return true;">
+							   Polski
+							</a>
+						</li>
+						<li>
+							<a href="http://kr.battle.net/account/panel-o/sabeeee.html?locale=pt-br"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to pt-br'); return true;">
+							   Português (AL)
+							</a>
+						</li>
+						<li>
+							<a href="http://kr.battle.net/account/panel-o/sabeeee.html?locale=ru-ru"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to ru-ru'); return true;">
+							   ???????
+							</a>
+						</li>
+						<li>
+							<a href="http://kr.battle.net/account/panel-o/sabeeee.html?locale=zh-tw"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to zh-tw'); return true;">
+							   ????
+							</a>
+						</li>
+						<li>
+							<a href="http://kr.battle.net/account/panel-o/sabeeee.html?locale=ko-kr"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to ko-kr'); return true;">
+							   ???
+							</a>
+						</li>
+			</ul>
+		</div>
+		<div class="column">
+			<h3>Taiwán</h3>
+
+			<ul>
+						<li>
+							<a href="http://tw.battle.net/account/panel-o/sabeeee.html?locale=de-de"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to de-de'); return true;">
+							   Deutsch
+							</a>
+						</li>
+						<li>
+							<a href="http://tw.battle.net/account/panel-o/sabeeee.html?locale=en-gb"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to en-gb'); return true;">
+							   English (EU)
+							</a>
+						</li>
+						<li>
+							<a href="http://tw.battle.net/account/panel-o/sabeeee.html?locale=en-us"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to en-us'); return true;">
+							   English (US)
+							</a>
+						</li>
+						<li>
+							<a href="http://tw.battle.net/account/panel-o/sabeeee.html?locale=es-mx"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to es-mx'); return true;">
+							   Español (AL)
+							</a>
+						</li>
+						<li>
+							<a href="http://tw.battle.net/account/panel-o/sabeeee.html?locale=es-es"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to es-es'); return true;">
+							   Español (EU)
+							</a>
+						</li>
+						<li>
+							<a href="http://tw.battle.net/account/panel-o/sabeeee.html?locale=fr-fr"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to fr-fr'); return true;">
+							   Français
+							</a>
+						</li>
+						<li>
+							<a href="http://tw.battle.net/account/panel-o/sabeeee.html?locale=it-it"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to it-it'); return true;">
+							   Italiano
+							</a>
+						</li>
+						<li>
+							<a href="http://tw.battle.net/account/panel-o/sabeeee.html?locale=pl-pl"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to pl-pl'); return true;">
+							   Polski
+							</a>
+						</li>
+						<li>
+							<a href="http://tw.battle.net/account/panel-o/sabeeee.html?locale=pt-br"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to pt-br'); return true;">
+							   Português (AL)
+							</a>
+						</li>
+						<li>
+							<a href="http://tw.battle.net/account/panel-o/sabeeee.html?locale=ru-ru"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to ru-ru'); return true;">
+							   ???????
+							</a>
+						</li>
+						<li>
+							<a href="http://tw.battle.net/account/panel-o/sabeeee.html?locale=zh-tw"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to zh-tw'); return true;">
+							   ????
+							</a>
+						</li>
+						<li>
+							<a href="http://tw.battle.net/account/panel-o/sabeeee.html?locale=ko-kr"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to ko-kr'); return true;">
+							   ???
+							</a>
+						</li>
+			</ul>
+		</div>
+		<div class="column">
+			<h3>China</h3>
+
+			<ul>
+						<li>
+							<a href="http://www.battlenet.com.cn/account/panel-o/sabeeee.html?locale=de-de"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to de-de'); return true;">
+							   Deutsch
+							</a>
+						</li>
+						<li>
+							<a href="http://www.battlenet.com.cn/account/panel-o/sabeeee.html?locale=en-gb"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to en-gb'); return true;">
+							   English (EU)
+							</a>
+						</li>
+						<li>
+							<a href="http://www.battlenet.com.cn/account/panel-o/sabeeee.html?locale=en-us"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to en-us'); return true;">
+							   English (US)
+							</a>
+						</li>
+						<li>
+							<a href="http://www.battlenet.com.cn/account/panel-o/sabeeee.html?locale=es-mx"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to es-mx'); return true;">
+							   Español (AL)
+							</a>
+						</li>
+						<li>
+							<a href="http://www.battlenet.com.cn/account/panel-o/sabeeee.html?locale=es-es"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to es-es'); return true;">
+							   Español (EU)
+							</a>
+						</li>
+						<li>
+							<a href="http://www.battlenet.com.cn/account/panel-o/sabeeee.html?locale=fr-fr"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to fr-fr'); return true;">
+							   Français
+							</a>
+						</li>
+						<li>
+							<a href="http://www.battlenet.com.cn/account/panel-o/sabeeee.html?locale=it-it"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to it-it'); return true;">
+							   Italiano
+							</a>
+						</li>
+						<li>
+							<a href="http://www.battlenet.com.cn/account/panel-o/sabeeee.html?locale=pl-pl"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to pl-pl'); return true;">
+							   Polski
+							</a>
+						</li>
+						<li>
+							<a href="http://www.battlenet.com.cn/account/panel-o/sabeeee.html?locale=pt-br"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to pt-br'); return true;">
+							   Português (AL)
+							</a>
+						</li>
+						<li>
+							<a href="http://www.battlenet.com.cn/account/panel-o/sabeeee.html?locale=ru-ru"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to ru-ru'); return true;">
+							   ???????
+							</a>
+						</li>
+						<li>
+							<a href="http://www.battlenet.com.cn/account/panel-o/sabeeee.html?locale=zh-cn"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to zh-cn'); return true;">
+							   ????
+							</a>
+						</li>
+						<li>
+							<a href="http://www.battlenet.com.cn/account/panel-o/sabeeee.html?locale=zh-tw"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to zh-tw'); return true;">
+							   ????
+							</a>
+						</li>
+						<li>
+							<a href="http://www.battlenet.com.cn/account/panel-o/sabeeee.html?locale=ko-kr"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to ko-kr'); return true;">
+							   ???
+							</a>
+						</li>
+			</ul>
+		</div>
+		<div class="column">
+			<h3>Asia Suroriental</h3>
+
+			<ul>
+						<li>
+							<a href="http://sea.battle.net/account/panel-o/sabeeee.html?locale=de-de"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to de-de'); return true;">
+							   Deutsch
+							</a>
+						</li>
+						<li>
+							<a href="http://sea.battle.net/account/panel-o/sabeeee.html?locale=en-gb"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to en-gb'); return true;">
+							   English (EU)
+							</a>
+						</li>
+						<li>
+							<a href="http://sea.battle.net/account/panel-o/sabeeee.html?locale=en-us"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to en-us'); return true;">
+							   English (US)
+							</a>
+						</li>
+						<li>
+							<a href="http://sea.battle.net/account/panel-o/sabeeee.html?locale=es-mx"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to es-mx'); return true;">
+							   Español (AL)
+							</a>
+						</li>
+						<li>
+							<a href="http://sea.battle.net/account/panel-o/sabeeee.html?locale=es-es"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to es-es'); return true;">
+							   Español (EU)
+							</a>
+						</li>
+						<li>
+							<a href="http://sea.battle.net/account/panel-o/sabeeee.html?locale=fr-fr"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to fr-fr'); return true;">
+							   Français
+							</a>
+						</li>
+						<li>
+							<a href="http://sea.battle.net/account/panel-o/sabeeee.html?locale=it-it"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to it-it'); return true;">
+							   Italiano
+							</a>
+						</li>
+						<li>
+							<a href="http://sea.battle.net/account/panel-o/sabeeee.html?locale=pl-pl"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to pl-pl'); return true;">
+							   Polski
+							</a>
+						</li>
+						<li>
+							<a href="http://sea.battle.net/account/panel-o/sabeeee.html?locale=pt-br"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to pt-br'); return true;">
+							   Português (AL)
+							</a>
+						</li>
+						<li>
+							<a href="http://sea.battle.net/account/panel-o/sabeeee.html?locale=ru-ru"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to ru-ru'); return true;">
+							   ???????
+							</a>
+						</li>
+						<li>
+							<a href="http://sea.battle.net/account/panel-o/sabeeee.html?locale=zh-tw"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to zh-tw'); return true;">
+							   ????
+							</a>
+						</li>
+						<li>
+							<a href="http://sea.battle.net/account/panel-o/sabeeee.html?locale=ko-kr"
+								tabindex="100" onclick="Locale.trackEvent('Change Language', 'es-es to ko-kr'); return true;">
+							   ???
+							</a>
+						</li>
+			</ul>
+		</div>
+
+        <script type="text/javascript">
+        //<![CDATA[
+		Locale.trackEvent('Open Menu', 'es-es');
+Uncaught ReferenceError: Locale is not defined
+        //]]>
+        </script>
+
+	<span class="clear"><!-- --></span>
+</div>
+
