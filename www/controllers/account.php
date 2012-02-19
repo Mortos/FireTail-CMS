@@ -77,25 +77,36 @@ class Account extends CI_Controller {
 	if($this->form_validation->run() == FALSE)
 	{
 	$this->load->view('account/change_pass', $info);
-	$this->load->view('account/footer', $info);
+	$this->load->view('account/footer_cp', $info);
+	}
+	elseif($password_hash_db != $old_hash && $this->input->post('newPassword') != $this->input->post('newPasswordVerify'))
+	{
+		$info['error_pass_not_match'] = TRUE;
+		$info['error_pass_repeat_not_match'] = TRUE;
+		$info['suceso'] = "
+		<li class=\"error.password.incorrect\">La contrase&ntilde;a que has introducido no es correcta.</li>
+		<li class=\"error.password.mustMatch\">Ambas contrase&ntilde;as deben coincidir.</li>";
+		$this->load->view('account/change_pass', $info);
+		$this->load->view('account/footer_cp', $info);
 	}
 	elseif($password_hash_db != $old_hash)
 	{
-		$info['suceso'] = "La contrase&ntilde;a actual es incorrecta.";
+		$info['error_pass_not_match'] = TRUE;
+		$info['suceso'] = "<p class=\"error.password.incorrect\">La contrase&ntilde;a que has introducido no es correcta.</p>";
 		$this->load->view('account/change_pass', $info);
-		$this->load->view('account/footer', $info);
+		$this->load->view('account/footer_cp', $info);
 	}
 	elseif($this->input->post('newPassword') != $this->input->post('newPasswordVerify'))
 	{
-		$info['suceso'] = "La contrase&ntilde;a nueva debe coincidir con su confirmaci&oacute;n.";
+		$info['error_pass_repeat_not_match'] = TRUE;
+		$info['suceso'] = "<p class=\"error.password.mustMatch\">Ambas contrase&ntilde;as deben coincidir.</p>";
 		$this->load->view('account/change_pass', $info);
-		$this->load->view('account/footer', $info);
+		$this->load->view('account/footer_cp', $info);
 	}
 	else {
-	$info['suceso'] = "Se ha cambiado la Contrase&ntilde;a";
 	$this->account_model->change('sha_pass_hash', $hash, $username);
-	$this->load->view('account/change_pass', $info);
-	$this->load->view('account/footer', $info);
+	$this->load->view('account/change_pass_success', $info);
+	$this->load->view('account/footer_cp', $info);
 	}
 	}
 	public function register()
